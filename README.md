@@ -1,7 +1,10 @@
-# test-1 
-깃허브 사용법 연습중
+# 소스코드 삽입하기
 
-작성한 소스에 대한 간단한 소개글 작성 
-
-여기에 원하는 내용을 입력
-
+'''javascript
+<script>
+let now = new Date();
+let display = new.tolocaletimestring();
+document.write('현재시각은 ${display}입니다.');
+</script>
+'''
+입력끝
